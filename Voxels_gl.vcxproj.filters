@@ -13,6 +13,12 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Resource Files\sadfasdf">
+      <UniqueIdentifier>{0048cc36-8c68-41f7-82a6-34116b772dc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\sadfasdf\NewFilter1">
+      <UniqueIdentifier>{35192fd1-3035-411f-beb1-139d835404b5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="framework.h">
@@ -108,5 +114,71 @@
     <Image Include="Voxels_gl.ico">
       <Filter>Resource Files</Filter>
     </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\shaders\drawData.frag">
+      <Filter>Resource Files\sadfasdf</Filter>
+    </None>
+    <None Include="assets\shaders\drawData.vert">
+      <Filter>Resource Files\sadfasdf</Filter>
+    </None>
+    <None Include="assets\shaders\drawModel.frag">
+      <Filter>Resource Files\sadfasdf</Filter>
+    </None>
+    <None Include="assets\shaders\drawModel.vert">
+      <Filter>Resource Files\sadfasdf</Filter>
+    </None>
+    <None Include="assets\shaders\drawTriangle.frag">
+      <Filter>Resource Files\sadfasdf</Filter>
+    </None>
+    <None Include="assets\shaders\drawTriangle.vert">
+      <Filter>Resource Files\sadfasdf</Filter>
+    </None>
+    <None Include="assets\shaders\drawVoxel.frag">
+      <Filter>Resource Files\sadfasdf</Filter>
+    </None>
+    <None Include="assets\shaders\drawVoxel.vert">
+      <Filter>Resource Files\sadfasdf</Filter>
+    </None>
+    <None Include="assets\shaders\mipmap.comp">
+      <Filter>Resource Files\sadfasdf</Filter>
+    </None>
+    <None Include="assets\shaders\shadowMap.frag">
+      <Filter>Resource Files\sadfasdf</Filter>
+    </None>
+    <None Include="assets\shaders\shadowMap.vert">
+      <Filter>Resource Files\sadfasdf</Filter>
+    </None>
+    <None Include="assets\shaders\voxelization.frag">
+      <Filter>Resource Files\sadfasdf</Filter>
+    </None>
+    <None Include="assets\shaders\voxelization.geom">
+      <Filter>Resource Files\sadfasdf</Filter>
+    </None>
+    <None Include="assets\shaders\voxelization.vert">
+      <Filter>Resource Files\sadfasdf</Filter>
+    </None>
+    <None Include="assets\models\cornell.mtl">
+      <Filter>Resource Files\sadfasdf</Filter>
+    </None>
+    <None Include="assets\models\sponza.mtl">
+      <Filter>Resource Files\sadfasdf</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="assets\shaders\shaderHelpers.txt">
+      <Filter>Resource Files\sadfasdf</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="assets\models\cornell.obj">
+      <Filter>Resource Files\sadfasdf</Filter>
+    </Object>
+    <Object Include="assets\models\sponza.obj">
+      <Filter>Resource Files\sadfasdf</Filter>
+    </Object>
+    <Object Include="assets\models\voxelLarge.obj">
+      <Filter>Resource Files\sadfasdf</Filter>
+    </Object>
   </ItemGroup>
 </Project>

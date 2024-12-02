@@ -169,6 +169,32 @@
     <Image Include="small.ico" />
     <Image Include="Voxels_gl.ico" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\models\cornell.mtl" />
+    <None Include="assets\models\sponza.mtl" />
+    <None Include="assets\shaders\drawData.frag" />
+    <None Include="assets\shaders\drawData.vert" />
+    <None Include="assets\shaders\drawModel.frag" />
+    <None Include="assets\shaders\drawModel.vert" />
+    <None Include="assets\shaders\drawTriangle.frag" />
+    <None Include="assets\shaders\drawTriangle.vert" />
+    <None Include="assets\shaders\drawVoxel.frag" />
+    <None Include="assets\shaders\drawVoxel.vert" />
+    <None Include="assets\shaders\mipmap.comp" />
+    <None Include="assets\shaders\shadowMap.frag" />
+    <None Include="assets\shaders\shadowMap.vert" />
+    <None Include="assets\shaders\voxelization.frag" />
+    <None Include="assets\shaders\voxelization.geom" />
+    <None Include="assets\shaders\voxelization.vert" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="assets\shaders\shaderHelpers.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="assets\models\cornell.obj" />
+    <Object Include="assets\models\sponza.obj" />
+    <Object Include="assets\models\voxelLarge.obj" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
