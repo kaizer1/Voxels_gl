@@ -9,6 +9,7 @@ Engine::Engine()
 	//sensor_event_queue_(NULL) {
 	//gl_context_ = ndk_helper::GLContext::GetInstance();
 
+	// 
 
 }
 
